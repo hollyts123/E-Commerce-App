@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Popular",
+        "image": "/productCategories/popular.svg"
+    },
+    {
+        "id": 2,
+        "name": "Men",
+        "image": "/productCategories/men.svg"
+    },
+    {
+        "id": 3,
+        "name": "Women",
+        "image": "/productCategories/women.svg"
+    },
+    {
+        "id": 4,
+        "name": "Kids",
+        "image": "/productCategories/kids.svg"
+    },
+    {
+        "id": 5,
+        "name": "Popular",
+        "image": "/productCategories/popular.svg"
+    },
+    {
+        "id": 6,
+        "name": "Men",
+        "image": "/productCategories/men.svg"
+    },
+    {
+        "id": 7,
+        "name": "Women",
+        "image": "/productCategories/women.svg"
+    },
+    {
+        "id": 8,
+        "name": "Kids",
+        "image": "/productCategories/kids.svg"
+    }
+]

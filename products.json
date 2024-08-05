@@ -24,7 +24,7 @@
         "id": 4,
         "name": "Product 4",
         "price": "$35",
-        "rating": 5,
+        "rating": 3.5,
         "image": "/products/product.svg"
     },
     {
@@ -45,7 +45,7 @@
         "id": 7,
         "name": "Product 7",
         "price": "$18",
-        "rating": 4.1,
+        "rating": 1.8,
         "image": "/products/product.svg"
     },
     {
