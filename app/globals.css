@@ -38,4 +38,25 @@ body {
   width: 100vw;
 }
 
+.recommended-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3vw 25px;
+}
 
+.recommended {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.view-all-btn {
+  font-size: 14px;
+  color: #0DA54B;
+}
+
+.view-all-btn:active {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0DA54B;
+}
