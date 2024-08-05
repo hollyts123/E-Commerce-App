@@ -18,13 +18,7 @@ export default function Home() {
       <SearchBar className='search-bar' />
       <div className='recommended-wrap'>
         <h3 className='recommended'>Recommended</h3>
-
-        {/* {visibleProducts < productsData.length && (
-          <p className='view-all-btn' onClick={handleViewAll}>View All</p>
-        )} */}
-
         <button className='view-all-btn' onClick={handleViewAll}>View All</button>
-
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-2 product-card-container">
         {

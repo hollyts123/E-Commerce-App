@@ -18,7 +18,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ className, product }) => {
         <div className={className}>
             <div className={productStyles['product-wrap']}>
             <img className={productStyles['product-img']} src={product.image} alt="Product image" />
-            <Rating className={productStyles.rating} />
+            <Rating className={productStyles.rating} rating={product.rating}/>
             <img className={productStyles['like-img']}
                 src={isLiked ? '/productCard/liked.svg' : '/productCard/like.svg'}
                 alt='Heart icon'
