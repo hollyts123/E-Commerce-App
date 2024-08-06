@@ -21,6 +21,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: var(--background-main);
+  margin-bottom: 90px;
 }
 
 @layer utilities {
@@ -77,8 +78,12 @@ body {
 }
 
 .product-category-item {
-  /* display: flex;
-  justify-content: center; */
   margin: 0 auto;
   margin-bottom: 15px;
+}
+
+.navbar-item {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

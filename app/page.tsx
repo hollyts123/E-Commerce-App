@@ -6,6 +6,7 @@ import Product from './interfaces/Product';
 import productsData from '../products.json';
 import ProductCategory from './component/productCategory/ProductCategory';
 import productCategoryData from '../productCategories.json';
+import Navbar from './component/navbar/Navbar';
 
 export default function Home() {
   const [visibleCategories, setVisibleCategories] = useState(4);
@@ -64,6 +65,8 @@ export default function Home() {
           <ProductCard key={product.id} className="product-card" product={product} />
         ))}
       </div>
+
+      <Navbar className='navbar-item'/>
     </div>
   );
 }
