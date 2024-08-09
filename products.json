@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "Cotton Shirt Regular Fit",
+        "price": "$20",
+        "rating": 4.5,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "price": "$25",
+        "rating": 5.0,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "price": "$30",
+        "rating": 4.2,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "price": "$35",
+        "rating": 3.5,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "price": "$35",
+        "rating": 2.8,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "price": "$22",
+        "rating": 3.6,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 7,
+        "name": "Product 7",
+        "price": "$18",
+        "rating": 1.8,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 8,
+        "name": "Product 8",
+        "price": "$42",
+        "rating": 4.1,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 9,
+        "name": "Product 9",
+        "price": "$38",
+        "rating": 3.9,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 10,
+        "name": "Product 10",
+        "price": "$46",
+        "rating": 4.9,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 11,
+        "name": "Product 11",
+        "price": "$11",
+        "rating": 4.1,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 12,
+        "name": "Product 12",
+        "price": "$21",
+        "rating": 4.5,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 13,
+        "name": "Product 13",
+        "price": "$25",
+        "rating": 2.5,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 14,
+        "name": "Product 14",
+        "price": "$34",
+        "rating": 4.8,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 15,
+        "name": "Product 15",
+        "price": "$55",
+        "rating": 5.0,
+        "image": "/products/product.svg"
+    },
+    {
+        "id": 16,
+        "name": "Product 16",
+        "price": "$40",
+        "rating": 4.2,
+        "image": "/products/product.svg"
+    }
+]

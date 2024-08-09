@@ -1,0 +1,31 @@
+.product-category-wrap {
+    width: 80px;
+    height: 90px;
+    border: 1px solid #7af97a;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 8px;
+    cursor: pointer;
+  }
+  
+  .product-category-wrap:active,
+  .product-category-wrap:focus,
+  .product-category-wrap:hover {
+    border-color: #cacaca;
+    border-width: 2px;
+  }
+  
+  .product-category-wrap.clicked {
+    border-color: #cacaca;
+    border-width: 2px;
+  }
+  
+  .product-category-img {
+    margin: 0 auto;
+  }
+  
+  .product-category-name {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+  }

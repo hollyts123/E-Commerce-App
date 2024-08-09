@@ -1,0 +1,21 @@
+.rating-wrap {
+    width: 47px;
+    height: 19px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-icon {
+    width: 12px;
+}
+
+.rating-value {
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 7px;
+}
+
