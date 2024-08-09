@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div className="main">
       <SearchBar className="search-bar" />
-      
+
       <div className="product-category-wrapper">
         <h3 className="recommended">Shop by category</h3>
         <button className="view-all-btn" onClick={handleViewAllCategories}>View All</button>
@@ -66,7 +66,7 @@ export default function Home() {
         ))}
       </div>
 
-      <Navbar className='navbar-item'/>
+      <Navbar className='navbar-item' />
     </div>
   );
 }
