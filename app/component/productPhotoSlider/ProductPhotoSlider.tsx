@@ -9,18 +9,18 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/thumbs';
 import 'swiper/css/pagination';
-
 import productPhotoSliderStyles from './ProductPhotoSlider.module.css';
 
-// import required modules
+// import required swiper modules
 import { FreeMode, Thumbs, Pagination } from 'swiper/modules';
 import { Swiper as SwiperType } from 'swiper';
 
 interface productPhotoSliderProps {
     className?: string;
+    images: [string]; // Array of image URLs
 }
 
-const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className }) => {
+const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className, images }) => {
     const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType>();
     return (
         <div className={className}>
@@ -30,7 +30,15 @@ const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className }) =>
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Thumbs, Pagination]}
                 className={productPhotoSliderStyles.mySwiper2}
-                pagination={{ clickable: true }}>
+                pagination={{ clickable: true }}
+            >
+
+                {images.map((image, index) => (
+                    <SwiperSlide key={index}>
+                        <img src={image} alt={`Product image ${index + 1}`} />
+                    </SwiperSlide>
+                ))}
+
                 <SwiperSlide>
                     <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
                 </SwiperSlide>
@@ -57,6 +65,13 @@ const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className }) =>
                 modules={[FreeMode, Pagination, Thumbs]}
                 className={productPhotoSliderStyles.mySwiper}
             >
+
+                {images.map((image, index) => (
+                    <SwiperSlide key={index}>
+                        <img src={image} alt={`Thumbnail ${index + 1}`} />
+                    </SwiperSlide>
+                ))}
+
                 <SwiperSlide>
                     <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
                 </SwiperSlide>

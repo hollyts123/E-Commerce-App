@@ -61,7 +61,7 @@ export default function Home() {
         <button className="view-all-btn" onClick={handleViewAll}>View All</button>
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-2 product-card-container">
-        {productsToShow.map((product: Product) => (
+      {productsToShow.map((product: Product) => (
           <ProductCard key={product.id} className="product-card" product={product} />
         ))}
       </div>
