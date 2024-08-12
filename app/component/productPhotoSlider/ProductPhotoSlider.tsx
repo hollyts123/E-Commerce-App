@@ -17,7 +17,7 @@ import { Swiper as SwiperType } from 'swiper';
 
 interface productPhotoSliderProps {
     className?: string;
-    images: [string]; // Array of image URLs
+    images: string[];
 }
 
 const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className, images }) => {
@@ -29,31 +29,16 @@ const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className, imag
                 spaceBetween={10}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Thumbs, Pagination]}
-                className={productPhotoSliderStyles.mySwiper2}
+                className={productPhotoSliderStyles.mainSwiperSlider}
                 pagination={{ clickable: true }}
             >
 
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={image} alt={`Product image ${index + 1}`} />
+                        <img src={image} alt={`Product image ${index + 1}`} className={productPhotoSliderStyles.mainSwiperSliderImg}
+                        />
                     </SwiperSlide>
                 ))}
-
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
             </Swiper>
             <Swiper
                 onSwiper={setThumbsSwiper}
@@ -63,30 +48,14 @@ const ProductPhotoSlider: React.FC<productPhotoSliderProps> = ({ className, imag
                 freeMode={true}
                 watchSlidesProgress={true}
                 modules={[FreeMode, Pagination, Thumbs]}
-                className={productPhotoSliderStyles.mySwiper}
+                className={productPhotoSliderStyles.thumbsSwiperSlider}
             >
 
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={image} alt={`Thumbnail ${index + 1}`} />
+                        <img src={image} alt={`Thumbnail ${index + 1}`} className={productPhotoSliderStyles.thumbsSwiperSliderImg} />
                     </SwiperSlide>
                 ))}
-
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
             </Swiper>
         </div>
     );

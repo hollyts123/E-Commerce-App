@@ -7,6 +7,9 @@
         "images": [
             "/products/Adidas_Navy_Blue_T-Shirt_with_Striped_Sleeves/1.png",
             "/products/Adidas_Navy_Blue_T-Shirt_with_Striped_Sleeves/1.png"
+        ],
+        "sizes": [
+            "XS", "S", "L"
         ]
     },
     {
@@ -20,6 +23,9 @@
             "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/3.jpg",
             "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/4.jpg",
             "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/5.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
         ]
     },
     {
@@ -36,6 +42,9 @@
             "/products/Womens_Beige_Sweatshirt/6.jpg",
             "/products/Womens_Beige_Sweatshirt/7.jpg",
             "/products/Womens_Beige_Sweatshirt/8.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
         ]
     },
     {
@@ -47,6 +56,9 @@
             "/products/Mens_Classic_Long-Sleeve_T-Shirt/1.png",
             "/products/Mens_Classic_Long-Sleeve_T-Shirt/2.png",
             "/products/Mens_Classic_Long-Sleeve_T-Shirt/3.png"
+        ],
+        "sizes": [
+            "M", "XL"
         ]
     },
     {
@@ -60,6 +72,9 @@
             "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/3.jpg",
             "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/4.jpg",
             "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/5.jpg"
+        ],
+        "sizes": [
+            "L","XL"
         ]
     },
     {
@@ -75,6 +90,9 @@
             "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/5.jpg",
             "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/6.jpg",
             "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/7.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL", "XXL"
         ]
     },
     {
@@ -88,6 +106,9 @@
             "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/3.jpg",
             "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/4.jpg",
             "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/5.jpg"
+        ],
+        "sizes": [
+            "XS","S", "M", "L","XL"
         ]
     },
     {
@@ -99,6 +120,9 @@
             "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/1.jpg",
             "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/2.jpg",
             "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/3.jpg"
+        ],
+        "sizes": [
+            "XS", "S", "M"
         ]
     },
     {
@@ -114,6 +138,9 @@
             "/products/Womens_Black_Graphic_Print_Top/5.jpg",
             "/products/Womens_Black_Graphic_Print_Top/6.jpg",
             "/products/Womens_Black_Graphic_Print_Top/7.jpg"
+        ],
+        "sizes": [
+            "XXS", "XS", "S", "M", "L","XL", "XXL"
         ]
     },
     {
@@ -125,8 +152,11 @@
             "/products/Mens_Basic_Green_Pullover_Sweatshirt/1.jpg",
             "/products/Mens_Basic_Green_Pullover_Sweatshirt/2.jpg",
             "/products/Mens_Basic_Green_Pullover_Sweatshirt/3.jpg",
-            "/products/Mens_Basic_Green_Pullover_Sweatshirt/41.jpg",
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/4.jpg",
             "/products/Mens_Basic_Green_Pullover_Sweatshirt/5.jpg"
+        ],
+        "sizes": [
+            "XXS", "XS", "L","XL"
         ]
     }
 ]

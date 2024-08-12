@@ -1,0 +1,32 @@
+.select-size {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.size-card-wrap {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.size-card {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #CACACA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 0;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.size-card:hover {
+    background-color: #7AF97A;
+}
+
+.active {
+    border-color: #7AF97A;
+    background-color: #7AF97A;
+}
