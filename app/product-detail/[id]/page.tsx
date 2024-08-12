@@ -16,7 +16,7 @@ export default function ProductDetail() {
     }
 
     return (
-        <div className='main'>
+        <div className={styles.main}>
             <ProductPhotoSlider images={productItem.images} className={styles['product-slider']} />
             <ProductDetailItem product={productItem} className={styles['product-detail-item']} />
         </div>

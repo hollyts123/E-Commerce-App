@@ -158,5 +158,50 @@
         "sizes": [
             "XXS", "XS", "L","XL"
         ]
+    },
+    {
+        "id": 11,
+        "name": "Men's Bluewave Classic Shirt",
+        "price": "$59.99",
+        "rating": 5.0,
+        "images": [
+            "/products/Mens_Bluewave_Classic_Shirt/1.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/2.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/3.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/4.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/5.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Noir Elegance Skirt",
+        "price": "$26.99",
+        "rating": 4.3,
+        "images": [
+            "/products/Noir_Elegance_Skirt/1.jpg",
+            "/products/Noir_Elegance_Skirt/2.jpg",
+            "/products/Noir_Elegance_Skirt/3.jpg",
+            "/products/Noir_Elegance_Skirt/4.jpg"
+        ],
+        "sizes": [
+            "XS", "S", "M", "L","XL"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Arctic Breeze Sweatshirt",
+        "price": "$55.99",
+        "rating": 4.7,
+        "images": [
+            "/products/Arctic_Breeze_Sweatshirt/1.jpg",
+            "/products/Arctic_Breeze_Sweatshirt/2.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L"
+        ]
     }
 ]
+
