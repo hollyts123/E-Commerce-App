@@ -6,7 +6,6 @@ import Product from './interfaces/Product';
 import productsData from '../products.json';
 import ProductCategory from './component/productCategory/ProductCategory';
 import productCategoryData from '../productCategories.json';
-import Navbar from './component/navbar/Navbar';
 import Link from 'next/link';
 
 export default function Home() {
