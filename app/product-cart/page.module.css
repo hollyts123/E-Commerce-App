@@ -1,0 +1,38 @@
+.main {
+    background-color: #FBF9F9;
+    padding: 0 5vw;
+}
+
+.page-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.back-to-products-btn {
+    /* width: 35px;
+    height: 35px; */
+    /* border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: #fff; */
+    /* display: flex;
+    align-items: center; */
+    /* margin: 0;
+    padding: 0; */
+}
+
+.back-to-products-btn img {
+    width: 35px;
+    height: 35px;
+}
+
+.page-title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.page-title-container p {
+    font-size: 12px;
+    color: #D82F2F;
+}
