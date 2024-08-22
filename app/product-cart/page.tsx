@@ -9,7 +9,9 @@ export default function ProductCart() {
     return (
         <div className={styles.main}>
             <div className={styles['page-title-container']}>
-                <button className={styles['back-to-products-btn']}>&lt;</button>
+                <button className={styles['back-to-products-btn']}>
+                    <img src='back-btn.svg' />
+                </button>
                 <h2 className={styles['page-title']}>My Cart</h2>
                 <p>Delete</p>
             </div>

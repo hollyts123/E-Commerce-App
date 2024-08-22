@@ -10,6 +10,17 @@ interface ProductInCartProps {
 
 const ProductInCart: React.FC<ProductInCartProps> = ({ className, product }) => {
     const [isChecked, setIsChecked] = useState(false);
+    const [quantity, setQuantity] = useState(0);
+
+    const increaseQuantity = () => {
+        setQuantity(quantity + 1);
+    }
+
+    const decreaseQuantity = () => {
+        if (quantity > 0) {
+            setQuantity(quantity - 1);
+        }
+    }
 
     return (
         <div className={className}>
@@ -37,9 +48,9 @@ const ProductInCart: React.FC<ProductInCartProps> = ({ className, product }) => 
                         onClick={() => setIsChecked(!isChecked)}
                     />
                     <div className={productInCartStyles['product-item-btn-wrap']}>
-                        <button className={productInCartStyles['product-item-btn']}>-</button>
-                        <p className={productInCartStyles['product-item-qty']}>2</p>
-                        <button className={productInCartStyles['product-item-btn']}>+</button>
+                        <button className={productInCartStyles['product-item-btn']} onClick={decreaseQuantity}>-</button>
+                        <p className={productInCartStyles['product-item-qty']}>{quantity}</p>
+                        <button className={productInCartStyles['product-item-btn']} onClick={increaseQuantity}>+</button>
                     </div>
                 </div>
             </div>
