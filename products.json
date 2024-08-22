@@ -1,114 +1,207 @@
 [
     {
         "id": 1,
-        "name": "Cotton Shirt Regular Fit",
-        "price": "$20",
+        "name": "Adidas Navy Blue T-Shirt with Striped Sleeves",
+        "price": "$37",
         "rating": 4.5,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Adidas_Navy_Blue_T-Shirt_with_Striped_Sleeves/1.png",
+            "/products/Adidas_Navy_Blue_T-Shirt_with_Striped_Sleeves/1.png"
+        ],
+        "sizes": [
+            "XS", "S", "L"
+        ]
     },
     {
         "id": 2,
-        "name": "Product 2",
-        "price": "$25",
+        "name": "Men's Stylish Denim Shirt with Jeans Fabric",
+        "price": "$14.50",
         "rating": 5.0,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/1.jpg",
+            "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/2.jpg",
+            "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/3.jpg",
+            "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/4.jpg",
+            "/products/Mens_Stylish_Denim_Shirt_with_Jeans_Fabric/5.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
+        ]
     },
     {
         "id": 3,
-        "name": "Product 3",
+        "name": "Women's Beige Sweatshirt",
         "price": "$30",
         "rating": 4.2,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Womens_Beige_Sweatshirt/1.jpg",
+            "/products/Womens_Beige_Sweatshirt/2.jpg",
+            "/products/Womens_Beige_Sweatshirt/3.jpg",
+            "/products/Womens_Beige_Sweatshirt/4.jpg",
+            "/products/Womens_Beige_Sweatshirt/5.jpg",
+            "/products/Womens_Beige_Sweatshirt/6.jpg",
+            "/products/Womens_Beige_Sweatshirt/7.jpg",
+            "/products/Womens_Beige_Sweatshirt/8.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
+        ]
     },
     {
         "id": 4,
-        "name": "Product 4",
-        "price": "$35",
+        "name": "Men's Classic Long-Sleeve T-Shirt",
+        "price": "$12",
         "rating": 3.5,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Mens_Classic_Long-Sleeve_T-Shirt/1.png",
+            "/products/Mens_Classic_Long-Sleeve_T-Shirt/2.png",
+            "/products/Mens_Classic_Long-Sleeve_T-Shirt/3.png"
+        ],
+        "sizes": [
+            "M", "XL"
+        ]
     },
     {
         "id": 5,
-        "name": "Product 5",
+        "name": "Men's Grey Hoodie - Ultimate Comfort and Style",
         "price": "$35",
-        "rating": 2.8,
-        "image": "/products/product.svg"
+        "rating": 4.1,
+        "images": [
+            "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/1.jpg",
+            "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/2.jpg",
+            "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/3.jpg",
+            "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/4.jpg",
+            "/products/Mens_Grey_Hoodie_Ultimate_Comfort_and_Style/5.jpg"
+        ],
+        "sizes": [
+            "L","XL"
+        ]
     },
     {
         "id": 6,
-        "name": "Product 6",
-        "price": "$22",
-        "rating": 3.6,
-        "image": "/products/product.svg"
+        "name": "Women's Classic Straight-Leg Jeans",
+        "price": "$65",
+        "rating": 4.6,
+        "images": [
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/1.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/2.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/3.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/4.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/5.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/6.jpg",
+            "/products/Womens_Classic_Straight-Leg_Jeans_Versatile_&_Timelessa/7.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL", "XXL"
+        ]
     },
     {
         "id": 7,
-        "name": "Product 7",
-        "price": "$18",
-        "rating": 1.8,
-        "image": "/products/product.svg"
+        "name": "Women's Open Front Mid-Length Cardigan",
+        "price": "$49",
+        "rating": 3.9,
+        "images": [
+            "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/1.jpg",
+            "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/2.jpg",
+            "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/3.jpg",
+            "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/4.jpg",
+            "/products/Womens_Open_Front Mid-Length_Cardigan_Elegant_&_Versatile/5.jpg"
+        ],
+        "sizes": [
+            "XS","S", "M", "L","XL"
+        ]
     },
     {
         "id": 8,
-        "name": "Product 8",
+        "name": "Women's Black T-Shirt - Yahweh Yireh Faith Graphic",
         "price": "$42",
         "rating": 4.1,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/1.jpg",
+            "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/2.jpg",
+            "/products/Womens_Black_T-Shirt_Yahweh_Yireh_Faith Graphic/3.jpg"
+        ],
+        "sizes": [
+            "XS", "S", "M"
+        ]
     },
     {
         "id": 9,
-        "name": "Product 9",
-        "price": "$38",
+        "name": "Women's Black Graphic Print Top",
+        "price": "$32.5",
         "rating": 3.9,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Womens_Black_Graphic_Print_Top/1.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/2.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/3.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/4.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/5.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/6.jpg",
+            "/products/Womens_Black_Graphic_Print_Top/7.jpg"
+        ],
+        "sizes": [
+            "XXS", "XS", "S", "M", "L","XL", "XXL"
+        ]
     },
     {
         "id": 10,
-        "name": "Product 10",
+        "name": "Men's Basic Green Pullover Sweatshirt",
         "price": "$46",
         "rating": 4.9,
-        "image": "/products/product.svg"
+        "images": [
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/1.jpg",
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/2.jpg",
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/3.jpg",
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/4.jpg",
+            "/products/Mens_Basic_Green_Pullover_Sweatshirt/5.jpg"
+        ],
+        "sizes": [
+            "XXS", "XS", "L","XL"
+        ]
     },
     {
         "id": 11,
-        "name": "Product 11",
-        "price": "$11",
-        "rating": 4.1,
-        "image": "/products/product.svg"
+        "name": "Men's Bluewave Classic Shirt",
+        "price": "$59.99",
+        "rating": 5.0,
+        "images": [
+            "/products/Mens_Bluewave_Classic_Shirt/1.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/2.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/3.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/4.jpg",
+            "/products/Mens_Bluewave_Classic_Shirt/5.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L","XL"
+        ]
     },
     {
         "id": 12,
-        "name": "Product 12",
-        "price": "$21",
-        "rating": 4.5,
-        "image": "/products/product.svg"
+        "name": "Noir Elegance Skirt",
+        "price": "$26.99",
+        "rating": 4.3,
+        "images": [
+            "/products/Noir_Elegance_Skirt/1.jpg",
+            "/products/Noir_Elegance_Skirt/2.jpg",
+            "/products/Noir_Elegance_Skirt/3.jpg",
+            "/products/Noir_Elegance_Skirt/4.jpg"
+        ],
+        "sizes": [
+            "XS", "S", "M", "L","XL"
+        ]
     },
     {
         "id": 13,
-        "name": "Product 13",
-        "price": "$25",
-        "rating": 2.5,
-        "image": "/products/product.svg"
-    },
-    {
-        "id": 14,
-        "name": "Product 14",
-        "price": "$34",
-        "rating": 4.8,
-        "image": "/products/product.svg"
-    },
-    {
-        "id": 15,
-        "name": "Product 15",
-        "price": "$55",
-        "rating": 5.0,
-        "image": "/products/product.svg"
-    },
-    {
-        "id": 16,
-        "name": "Product 16",
-        "price": "$40",
-        "rating": 4.2,
-        "image": "/products/product.svg"
+        "name": "Arctic Breeze Sweatshirt",
+        "price": "$55.99",
+        "rating": 4.7,
+        "images": [
+            "/products/Arctic_Breeze_Sweatshirt/1.jpg",
+            "/products/Arctic_Breeze_Sweatshirt/2.jpg"
+        ],
+        "sizes": [
+            "S", "M", "L"
+        ]
     }
 ]
+

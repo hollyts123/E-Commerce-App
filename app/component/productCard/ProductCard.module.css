@@ -9,6 +9,7 @@
 
 .product-img {
     height: 180px;
+    margin: 0 auto;
 }
 
 .rating {
@@ -24,16 +25,16 @@
 }
 
 .product-name {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
-    margin: 12px 0 0 15px;
+    margin: 10px 0 0 15px;
 }
 
 .price-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 12px 15px 0 15px;
+    margin: 8px 15px 0 15px;
 }
 
 .price {

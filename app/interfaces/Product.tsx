@@ -1,7 +1,8 @@
 export default interface Product {
     id: number,
     name: string,
-    image: string,
+    images: string[],
     price: string,
-    rating: number
+    rating: number,
+    sizes: string[]
 }

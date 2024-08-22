@@ -7,6 +7,7 @@ import productsData from '../products.json';
 import ProductCategory from './component/productCategory/ProductCategory';
 import productCategoryData from '../productCategories.json';
 import Navbar from './component/navbar/Navbar';
+import Link from 'next/link';
 
 export default function Home() {
   const [visibleCategories, setVisibleCategories] = useState(4);
@@ -62,11 +63,13 @@ export default function Home() {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-cols-2 product-card-container">
         {productsToShow.map((product: Product) => (
-          <ProductCard key={product.id} className="product-card" product={product} />
+          <Link href={`/product-detail/${product.id}`} key={product.id}>
+            <ProductCard key={product.id} className="product-card" product={product} />
+          </Link>
         ))}
       </div>
 
-      <Navbar className='navbar-item' />
+      
     </div>
   );
 }
