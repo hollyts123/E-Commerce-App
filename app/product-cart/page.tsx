@@ -25,7 +25,6 @@ export default function ProductCart() {
             ) : (
                 <p className='my-4'>Your cart is empty</p>
             )}
-            <PromoCode />
         </div>
     );
 }
